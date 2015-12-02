@@ -1,0 +1,57 @@
+@media all and (max-width: 992px) {
+  .home .each-content .text-content {
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .home .each-content .img-content {
+    width: 100%;
+    height: auto;
+  }
+  .home .last-content .each-office {
+    margin-bottom: 35px;
+    width: 32%;
+  }
+  .case-study .content-1 .text-content {
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
+  .case-study .content-1 .img-content {
+    width: 100%;
+  }
+  .case-study .content-1 .img-content img {
+    margin: 10px auto;
+  }
+  .case-study .content-2 .text-content {
+    padding-left: 0px;
+    margin: 40px 0px;
+  }
+  .case-study .content-3 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  .case-study .content-3 .img-content ul li {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .case-study .content-4 .text-content {
+    margin-bottom: 40px;
+  }
+  div#footer-wrapper div.tweet {
+    float: none!important;
+  }
+  div#footer-wrapper div.sharing {
+    float: none!important;
+    margin-top: 10px;
+  }
+  div#footer-wrapper div.sharing ul {
+    float: right;
+  }
+}
+@media all and (max-width: 768px) {
+  .home .last-content .each-office {
+    margin-right: 25px;
+    width: 40%;
+  }
+}

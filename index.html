@@ -1,0 +1,228 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>
+<!--> 
+<html class=""> 
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>LIVE FEED</title>
+	<meta name="description" content="test">
+	<meta name="keywords" content="test">
+	<!-- Mobile Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Force IE to render best possible view -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<!-- FONT -->
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:300italic|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/vendors/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/vendors/bootstrap/bootstrap-theme.min.css" />
+	<link rel="stylesheet" href="css/vendors/jquery-ui/jquery-ui.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/animate.min.css" />	
+	<link rel="stylesheet" href="css/slick.css"/>
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/vendors/jquery/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/vendors/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/vendors/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/plugins/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/plugins/slick.min.js"></script>
+				
+
+	<script>
+		$(document).ready(function() {
+
+			function getSliderSettings(){
+			  return {
+			    slidesToShow: 1,
+		        slidesToScroll: 1,
+		        // autoplay: true,
+		        // autoplaySpeed: 0,
+		        rows: 3,
+		        speed: 8000,
+		        slidesPerRow: 4,
+		        vertical: true,
+		        arrows: false,
+		        pauseOnHover: false
+			  }
+			}
+
+		    $('.slider').slick(getSliderSettings());
+
+		    $('#change-image').click(function(e){
+		    	e.preventDefault();
+		    	$('.slider').slick('unslick');		    	
+		    	console.log($('.item:eq(7)').find('img').attr('src', 'images/content/case-study/case-study-content-3.jpg').addClass('animated flipInX'));
+		    	console.log($('.item:eq(4)').find('img').attr('src', 'images/content/case-study/case-study-content-2.jpg').addClass('animated flipInX'));
+		    	
+		    	$('.slider').slick(getSliderSettings());
+
+		    })
+		});
+	</script>
+</head>
+<body>
+	<a href="javascript:void(0);" id="change-image">CHANGE IMAGE</a>
+	<div class="slider">
+
+		<!-- This will be considered one slide -->
+	    <div class="item">    
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-2.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-1.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-2.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-1.jpg" />
+	        </div>	        
+	    </div>
+
+	    <!-- This will be considered one slide -->
+	    <div class="item">    
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-2.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-1.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-2.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-1.jpg" />
+	        </div>	        
+	    </div>
+
+	    <!-- This will be considered one slide -->
+	    <div class="item">    
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-2.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-1.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-2.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-1.jpg" />
+	        </div>	        
+	    </div>
+
+	    <!-- This will be considered one slide -->
+	    <div class="item">    
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-2.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-1.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-2.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-1.jpg" />
+	        </div>	        
+	    </div>
+
+	    <!-- This will be considered one slide -->
+	    <div class="item">    
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-2.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-1.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-2.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-1.jpg" />
+	        </div>	        
+	    </div>
+
+	    <!-- This will be considered one slide -->
+	    <div class="item">    
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-2.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-1.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-2.jpg" />
+	        </div>	        
+	    </div>
+
+	    <div class="item">
+	        <div class="grandchild">
+	            <img src="images/content/case-study/case-study-content-1.jpg" />
+	        </div>	        
+	    </div>
+
+	</div>
+</body>
+</html>

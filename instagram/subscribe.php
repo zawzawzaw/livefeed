@@ -4,8 +4,8 @@
 //ALL YOUR IMPORTANT API INFO
 $client_id = 'e9e853cde7bf4e7eb4fb036b2a495e97';
 $client_secret = 'c624d87e4032487b8f370b5ebe23d8ab';
-$object = 'user';
-// $object_id = 'manicmachine';
+$object = 'tag';
+$object_id = 'manicmachine';
 $aspect = 'media';
 $verify_token='';
 $callback_url = 'http://extraordinarymanicmachine.com/montigo/nongsa/instagram/callback.php';

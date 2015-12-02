@@ -1,0 +1,206 @@
+//   _   _  ___  __  __ _____ 
+//  | | | |/ _ \|  \/  | ____|
+//  | |_| | | | | |\/| |  _|  
+//  |  _  | |_| | |  | | |___ 
+//  |_| |_|\___/|_|  |_|_____|
+//  
+
+.home {
+
+   #heading {
+   		margin-top: 105px;
+   		text-align: center;
+		h5 {
+			.harriet-text-medium-italic;
+			font-size: 23px;
+			color: @dark-blue;
+			margin-bottom: 12px;
+		}
+		h1 {
+			.gotham-bold;
+			font-size: 34px;
+			line-height: 50px;
+			letter-spacing: 0.1em;
+			color: @dark-blue;
+			text-transform: uppercase;
+			margin-bottom: 15px;
+		}
+		.seperator-dot {
+			background-color: @dark-blue;
+			margin-bottom: 30px;
+		}
+		h6 {
+			.harriet-text-medium-italic;
+			font-size: 23px;
+			color: @dark-blue;
+			margin-bottom: 23px;
+		}
+		p {
+			.gotham-book;
+			font-size: 17px;
+			line-height: 27px;
+			color: @light-blue;
+			margin-bottom: 65px;
+		}
+   }
+
+   .each-content {
+   		margin-bottom: 30px;
+   		text-align: center;
+	   	.text-content {
+	   		display: inline-block;
+	   		width: 35.9%;
+	   		height: 595px;
+	   		background-color: @bg-light-grey;
+	   		vertical-align: top;	   	
+   		    padding-left: 45px;
+			padding-right: 125px;	
+			text-align: left;			
+
+			@media all and (max-width: 1280px) {
+				width: 35%;
+				height: 505px;
+			    background-color: #f3f3f3;
+			    vertical-align: top;
+			    padding-left: 35px;
+			    padding-right: 40px;
+			    text-align: left;
+			}
+
+	   		.v-align-table {
+	   			height: 100%;
+	   			display: table;	   			
+	   			.v-align-table-cell {
+	   				display: table-cell;
+	   				vertical-align: middle;
+	   			}
+	   		}
+
+	   		h5 {
+				.harriet-text-regular-italic;
+				font-size: 18px;
+				color: @dark-blue;
+				margin-bottom: 20px;
+				@media all and (max-width: 1280px) {
+					margin-bottom: 10px;
+				}
+			}
+			h2 {
+				.gotham-bold;
+				font-size: 27px;
+				line-height: 35px;
+				letter-spacing: 0.08em;
+				color: @dark-blue;
+				text-transform: uppercase;
+				margin-bottom: 30px;
+				@media all and (max-width: 1280px) {
+					margin-bottom: 20px;
+				}
+			}
+			.seperator-line {
+				background-color: @light-grey;
+				margin-bottom: 30px;
+				@media all and (max-width: 1280px) {
+					margin-bottom: 20px;
+				}
+			}
+			h6 {
+				.harriet-text-regular-italic;
+				font-size: 18px;
+				line-height: 25px;
+				color: @light-blue;
+				margin-bottom: 15px;
+			}
+			p {
+				.open-sans-light;
+				font-size: 14px;
+				line-height: 31px;
+				color: @light-blue;
+				a {
+					display: block;
+					line-height: 32px;
+					color: @light-blue;
+					&:hover {
+						color: @dark-blue;
+					}
+					@media all and (max-width: 1280px) {
+						display: inline;
+					}
+				}
+				margin-bottom: 30px;
+			}
+	   	}
+	   	.img-content {
+	   		display: inline-block;
+	   		vertical-align: middle;
+	   		width: 63.8%;
+	   	}	
+   }
+
+   .last-content {
+   		border-bottom: 1px solid @light-grey;
+   		padding-bottom: 47px;
+		padding-top: 40px;
+
+   		h2 {
+			.harriet-text-medium-italic;
+			font-size: 20px;
+			color: @dark-blue;
+			margin-bottom: 20px;
+   		}
+   		h1 {
+			.gotham-bold;
+			font-size: 30px;
+			line-height: 30px;
+			letter-spacing: 0.03em;
+			color: @dark-blue;
+			text-transform: uppercase;
+			margin-bottom: 13px;
+   		}
+   		> p {
+			.open-sans-regular;
+			font-size: 14px;
+			color: @dark-blue;
+			margin-bottom: 45px;
+			a {
+				color: @dark-blue;
+				&:hover {
+					color: @light-blue;
+				}
+			}
+   		}
+   		.each-office {
+   			display: inline-block;
+   			width: 18%;
+   			margin-right: 100px;
+   			vertical-align: top;   			
+   			&:last-child {
+   				margin-right: 0px;
+   			}
+   			h6 {
+				.gotham-medium;
+				font-size: 14px;
+				line-height: 18px;
+				letter-spacing: 0.1em;
+				color: @dark-green;
+				margin-bottom: 15px;
+				text-transform: uppercase;
+   			}
+   			p {
+				.open-sans-regular;
+				font-size: 14px;
+				line-height: 19px;
+				color: @dark-green;
+				margin-bottom: 25px;
+   			}
+   			a {
+   				font-size: 14px;
+   				line-height: 19px;   				
+   				color: @dark-green;
+   				&:hover {
+					color: @dark-blue;
+   				}
+   			}
+   		}
+   }
+}
